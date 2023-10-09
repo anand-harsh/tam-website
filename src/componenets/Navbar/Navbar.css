@@ -1,0 +1,30 @@
+.nav__items{
+    align-items: center;
+    width: 100%;
+    height: max-content;
+    z-index: 1;
+    background-color: rgb(145, 143, 147);
+    padding: 0.1rem 0 0.5rem 0;
+}
+
+.nav__items > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+
+}
+.nav__items > ul > li{
+    list-style: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 386px){
+    .nav__items > ul{
+        font-size: 0.8rem;
+        position: relative;
+        right: 1rem;
+    }
+}

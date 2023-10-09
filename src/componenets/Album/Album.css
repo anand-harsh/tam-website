@@ -1,0 +1,38 @@
+.album__comp{
+    background-color: rgb(184, 233, 184);
+}
+.child__2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.child__2 > .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.child__2 > .item > img{
+    height: 25vh;
+    width: 25vh;
+}
+
+.child__2 > .item > p{
+    font-weight: 500;
+    word-break: break-all;
+}
+@media screen and (max-width: 386px){
+    .child__2{
+        gap: 1rem;
+    }
+}
+@media screen and (max-width: 428px){
+    .child__2{
+        gap: 1rem;
+    }
+}
