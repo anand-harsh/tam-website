@@ -20,6 +20,7 @@
 .child__2 > .item > img{
     height: 25vh;
     width: 25vh;
+    object-fit: cover;
 }
 
 .child__2 > .item > p{
