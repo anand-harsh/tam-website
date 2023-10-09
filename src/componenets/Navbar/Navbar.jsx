@@ -4,6 +4,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="nav__items">
+      <div className="logo">Hurry <br />Up.<br /> buy now <br /></div>
         <ul>
           <li>Home</li>
           <li>About</li>
